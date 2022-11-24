@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:production": "npx sequelize db:migrate && node app.js"
+    "start:production": "node app.js"
   },
   "author": "",
   "license": "ISC",
