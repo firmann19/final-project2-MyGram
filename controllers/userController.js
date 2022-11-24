@@ -80,8 +80,8 @@ class UserController {
         }
         let payload = {
           id: user.id,
-          email: user.email,
-        };
+          email: user.email, 
+        }; 
 
         const token = generateToken(payload);
 
